@@ -1,0 +1,27 @@
+https://code.visualstudio.com/download
+https://github.com/Aakashdeveloper
+https://nodejs.org/en/
+
+
+React> is front end framework which help to build single page application
+with component based structure.
+
+NPM
+> Node package Manager
+
+////////////////////////
+Package.json
+///////////////////
+> starting point of application
+> meta data (description, version, packagename, developer,linc)
+> packages (local,dev)
+> script (start,build,test)
+
+/////////////////
+Step to generate package.json
+//////////////////
+**NodeJs must be install in system
+> navigate to the folder using cmd /terminal
+> npm init    (initilize npm in your folder)
+> Answer all questions
+> type yes
