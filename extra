@@ -51,3 +51,50 @@ Step to generate package.json
 > npm init    (initilize npm in your folder)
 > Answer all questions
 > type yes
+
+/////////////////
+Step to install package
+//////////////////
+> navigate to the folder using cmd /terminal
+> npm i packagename
+
+local > local to the folder
+      > Add to package.json
+      > max package will go local
+
+global> local to the system
+      > Not Add to package.json
+      > Need admin access
+      > only package use to setup/generate will go global
+
+////////////////////////////////React///////////////////////////////
+
+///////////////////////
+Step to create React app
+///////////////////////
+#window 
+
+>>>>One Time in new system<<<<<
+> open cmd as admin
+> npm i -g create-react-app
+
+>>>>Next all Time in same system<<<<<
+> go inside folder where you want app 
+> create-react-app appname
+
+#Mac /linux 
+
+>>>>One Time in new system<<<<<
+> open terminal
+> sudo npm i -g create-react-app
+
+>>>>Next all Time in same system<<<<<
+> go inside folder where you want app 
+> create-react-app appname
+
+///////////////////////
+Step to run React app
+///////////////////////
+> go inside app folder with cmd
+> npm start
+> localhost:3000
