@@ -98,3 +98,10 @@ Step to run React app
 > go inside app folder with cmd
 > npm start
 > localhost:3000
+
+////////////////
+
+
+function add(a,b){
+
+}
