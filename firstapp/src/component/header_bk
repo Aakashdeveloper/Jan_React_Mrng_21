@@ -1,0 +1,54 @@
+import React,{Component,Fragment} from 'react';
+
+class Header extends Component{
+    constructor(){ //first thing that called/all declaration here
+        super() //to inherit
+
+        this.state={
+            title:'React App',
+            keyword:'User Text Here'
+        }
+    }
+
+    render(){
+        const mystyle={
+            header:{
+                backgroundColor:'tomato'
+            },
+            logo:{
+                fontSize:'30px',
+                color:'white',
+                textAlign:'center'
+            }
+        }
+        return(
+            <Fragment>
+                <header style={mystyle.header}>
+                    <div style={mystyle.logo}>{this.state.title}</div>
+                    <center>
+                        <input/>
+                        <div style={{color:'white'}}>{this.state.keyword}</div>
+                    </center>
+                </header>
+                <hr/>
+            </Fragment>
+        )
+    }
+}
+
+
+export default Header;
+
+
+/*
+const Header = () => {
+    return(
+        <Fragment>
+            <center> 
+                <h1>React App</h1>
+            </center>
+            <hr/>
+        </Fragment>
+    )
+}
+*/

@@ -105,3 +105,32 @@ Step to run React app
 function add(a,b){
 
 }
+
+/////////Component-Type////////////
+functional
+> light in weight
+> dumb component
+> we cannot maintain state
+> we use for display only
+
+ClassComponent
+> heavy in weight
+> logical component
+> we can maintain state
+> use for api call,logic and display
+
+HooksComponent
+
+
+state  > act like a local variable
+       > all data interaction happen through state
+       > we can update the value of state
+       > each component can have it own state
+
+props
+      > use to transfer data from one component to other
+      >  we cannot update data of props
+
+
+map
+filter
