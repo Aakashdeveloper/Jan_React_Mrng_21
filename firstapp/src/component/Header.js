@@ -11,13 +11,18 @@ class Header extends Component{
         }
     }
 
+    handleChange=(event)=>{
+        console.log(event.target.value)
+        this.setState({keyword:event.target.value})
+    }
+
     render(){
         return(
             <Fragment>
                 <header >
                     <div className="logo">{this.state.title}</div>
                     <center>
-                        <input/>
+                        <input onChange={this.handleChange}/>
                         <div style={{color:'white'}}>{this.state.keyword}</div>
                     </center>
                 </header>
