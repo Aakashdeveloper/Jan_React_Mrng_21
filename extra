@@ -136,3 +136,7 @@ map
 filter
 
 var 
+
+parent to child > home to footer (props)
+child to parent > header to home (props with function)
+
