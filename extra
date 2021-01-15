@@ -164,3 +164,10 @@ npm i react-router-dom react-tabs react-slick
 fetch 
 promise
 
+
+//dummy api
+json server
+
+npm i -g json-server
+
+json-server --watch db.json --port 8900

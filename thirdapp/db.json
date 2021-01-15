@@ -1,0 +1,18 @@
+{
+  "bookings": [
+    {
+      "id": 33,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "aakash",
+      "phone": "534523",
+      "count": "3"
+    },
+    {
+      "id": 633,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "Bhumika",
+      "phone": "8789787",
+      "count": "2"
+    }
+  ]
+}
