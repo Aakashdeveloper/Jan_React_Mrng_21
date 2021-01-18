@@ -13,6 +13,20 @@
       "name": "Bhumika",
       "phone": "8789787",
       "count": "2"
+    },
+    {
+      "id": 608,
+      "hotel_name": "Snow Bliss",
+      "name": "Heena",
+      "phone": "97987988",
+      "count": "2"
+    },
+    {
+      "id": 489,
+      "hotel_name": "Pride Plaza Hotel ",
+      "name": "Jimmy",
+      "phone": "9787878",
+      "count": "3"
     }
   ]
 }

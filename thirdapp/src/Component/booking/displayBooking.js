@@ -1,14 +1,30 @@
 import React,{Component} from 'react';
+import axios from 'axios';
+import ViewBooking from './viewBooking';
 
-class ViewBooking extends Component{
+const BookingUrl = "http://localhost:8900/bookings";
+
+class DisplayBooking extends Component{
+    constructor(){
+        super()
+
+        this.state={
+            bookings:''
+        }
+    }
+
     render(){
         return(
             <div>
-                <h1>Booking</h1>
+                <ViewBooking bookdata={this.state.bookings}/>
             </div>
         )
     }
 
+    componentDidMount(){
+        axios.get(BookingUrl).then((res) => {this.setState({bookings:res.data})})
+    }
+
 }
 
-export default ViewBooking;
+export default DisplayBooking;
