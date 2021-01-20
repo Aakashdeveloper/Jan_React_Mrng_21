@@ -27,7 +27,11 @@ class Login extends Component{
                 },
                 body:JSON.stringify(this.state)
             })
-            .then(this.props.history.push('/profile'))
+            .then((res) => res.json())
+            .then((data) => {
+                sessionStorage.setItem('ltk',data.token)
+                this.props.history.push('/profile')
+            })
     }
 
     render(){
@@ -35,7 +39,7 @@ class Login extends Component{
             <div className="container">
                 <div className="panel panel-success">
                     <div className="panel-heading">
-                        Register
+                        Login
                     </div>
                     <div className="panel-body">
                         <div className="form-group">
