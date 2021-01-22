@@ -7,17 +7,14 @@ React-JWT(Login Logout)-1
 React(Github)-1
 React-GarphQL-1
 React_hooks -1
+Basic React Native=1
 /////////////////////
-
 Depolyment
 -> MERN
 -> Docker
 -> heroku
 -> Nginx
-
-Basic React Native=1
 React-Redux =2
-//////////////
 Github
 Testing
 React-Saga -1
@@ -200,3 +197,6 @@ npm i apollo-boost apollo-graphql graphql react-apollo
 npm i -g create-react-native-app
 create-react-native-app appname
  npm run web
+
+
+ npm i redux react-redux redux-logger
