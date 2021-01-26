@@ -8,6 +8,8 @@ React(Github)-1
 React-GarphQL-1
 React_hooks -1
 Basic React Native=1
+React-Saga -1
+React-with-typescript-1
 /////////////////////
 Depolyment
 -> MERN
@@ -17,8 +19,7 @@ Depolyment
 React-Redux =2
 Github
 Testing
-React-Saga -1
-React-with-typescript-1
+
 --------NOT--------------
 API
 GarphQL
@@ -199,4 +200,5 @@ create-react-native-app appname
  npm run web
 
 
- npm i redux react-redux redux-logger
+ npm i redux react-redux redux-logger redux-promise react-router-dom react-slick
+ npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
