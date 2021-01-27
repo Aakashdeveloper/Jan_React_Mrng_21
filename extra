@@ -5,17 +5,18 @@ Mock API
 json-server
 React-JWT(Login Logout)-1
 React(Github)-1
-React-GarphQL-1
-React_hooks -1
-Basic React Native=1
-React-Saga -1
-React-with-typescript-1
-/////////////////////
 Depolyment
 -> MERN
 -> Docker
 -> heroku
 -> Nginx
+
+
+React-GarphQL-1
+React_hooks -1
+Basic React Native=1
+React-Saga -1
+React-with-typescript-1
 React-Redux =2
 Github
 Testing
@@ -202,3 +203,9 @@ create-react-native-app appname
 
  npm i redux react-redux redux-logger redux-promise react-router-dom react-slick
  npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/MrngProd.git
+git push -u origin master
